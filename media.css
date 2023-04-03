@@ -1,0 +1,663 @@
+:root {
+    --Red: Red;
+    --fontLight: white;
+    --fontDark: black;
+    --fontDarkGrey: #151823;
+    --list-grey: #666666;
+    --light-grey: rgb(218, 218, 218);
+    --green: rgb(39, 177, 39);
+}
+
+@media (min-width: 360px) {
+    .nav_search {
+        width: 300px;
+    }
+
+    #header .search_box {
+        display: none;
+        text-align: center;
+    }
+
+    #header .search_boxx {
+        display: none;
+        text-align: end;
+        width: 90vw;
+
+    }
+
+    #header .navbar .navbar-nav {
+        align-items: center;
+
+    }
+
+    #header .navbar .list-group {
+        width: 300px;
+        text-align: center;
+    }
+
+    #header .navbar .collapse i {
+        margin: 20px 20px;
+    }
+
+    #header .logo img {
+        width: 50px;
+    }
+
+    /* home-section */
+    #Home .home-contant {
+        text-align: center;
+
+    }
+
+    #Home .home-contant .home-text-contant h1 {
+        font-size: 3rem;
+
+    }
+
+    #Home .home-contant .home-text-contant span {
+        font-size: 3rem;
+
+    }
+
+    #Home .home-contant .home-text-contant p {
+        font-size: 1.3rem;
+
+    }
+
+    #Home .home-contant .home-text-contant .wa-dark-btn {
+        font-size: 0.8rem;
+        padding: 5px 20px;
+
+    }
+
+    /* context-section */
+    #context .contact-contant .context-text-contant {
+        text-align: start;
+
+    }
+
+    #context .context-contant .context-text-contant h1 {
+        font-size: 2rem;
+    }
+
+    #context .context-contant .context-text-contant span {
+        font-size: 2rem;
+    }
+
+    #context .context-contant .context-text-contant p {
+        font-size: 1rem;
+    }
+
+    #context .context-contant .context-text-sign img {
+        max-width: 140px;
+        max-height: 140px;
+
+    }
+
+
+    #context .context-contant .context-text-sign .subtitle {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--list-grey);
+
+    }
+
+    /* your-work */
+    #your-work .project-house .project-wrapper .project-title h3 {
+
+        font-size: 40px;
+
+    }
+
+    #your-work .project-house .project-wrapper {
+
+        width: 400px;
+        height: 400px;
+
+
+    }
+
+    #your-work .project-house .project-wrapper img {
+        width: 425px;
+        height: 425px;
+
+    }
+
+
+    /* services */
+    #our-services {
+        text-align: center;
+    }
+
+    /* contact */
+    #contact .contact-holder {
+        display: block;
+        text-align: center;
+    }
+
+
+    #contact .contact-holder .contact-image img {
+        width: 300px;
+    }
+
+    #contact .contact-holder .contact-text-contant {
+        margin-top: 20px;
+    }
+
+    #contact .contact-holder .contact-text-contant .wa-white-btn {
+        width: 100%;
+    }
+
+    /* packages */
+
+    #pacages-card .packages-card {
+        margin-bottom: 30px;
+    }
+
+    /* event */
+    #updat-event .event-contant .event-text-contant .form {
+        display: block;
+        margin: auto;
+
+    }
+
+    #updat-event .event-contant .event-text-contant .form input {
+        width: 330px;
+    }
+
+    #updat-event .event-contant .form .wa-white-btn {
+        width: 150px;
+
+        margin-top: 20px;
+    }
+
+    /* resent-news */
+    #recent-news .news-holder {
+        text-align: center;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .nav_search {
+        width: 400px;
+    }
+
+    #header .search_box {
+        display: none;
+        text-align: center;
+    }
+
+    #header .search_boxx {
+        display: none;
+        text-align: end;
+        width: 93vw;
+
+    }
+
+    #header .navbar .navbar-nav {
+        align-items: center;
+
+    }
+
+    #header .navbar .list-group {
+        width: 500px;
+        text-align: center;
+    }
+
+    #header .navbar .collapse i {
+        margin: 20px 20px;
+    }
+
+    /* home-section */
+    #Home .home-contant {
+        text-align: start;
+
+    }
+
+
+    #Home .home-contant .home-text-contant h1 {
+        font-size: 4rem;
+
+    }
+
+    #Home .home-contant .home-text-contant span {
+        font-size: 4rem;
+    }
+
+    #Home .home-contant .home-text-contant p {
+        font-size: 1.2rem;
+    }
+
+    #Home .home-contant .home-text-contant .wa-dark-btn {
+        font-size: 1rem;
+        padding: 5px 30px;
+
+    }
+
+    /* context-section */
+
+    #context .contact-contant .context-text-contant {
+        text-align: start;
+
+    }
+
+    #context .context-contant .context-text-contant h1 {
+        font-size: 2.5rem;
+    }
+
+    #context .context-contant .context-text-contant span {
+        font-size: 2.5rem;
+    }
+
+    #context .context-contant .context-text-contant p {
+        font-size: 1rem;
+    }
+
+
+    #context .context-contant .context-text-sign .subtitle {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--list-grey);
+
+    }
+
+    /* your-work */
+
+    #your-work .project-house .project-wrapper .project-title h3 {
+
+        font-size: 30px;
+
+    }
+
+    #your-work .project-house .project-wrapper {
+
+        width: 200px;
+        height: 200px;
+
+
+    }
+
+    #your-work .project-house .project-wrapper img {
+        width: 215px;
+        height: 215px;
+
+    }
+
+
+    /* services */
+    #our-services {
+        text-align: start;
+    }
+
+
+    /* contacts */
+
+    #contact .contact-holder {
+        display: flex;
+    }
+
+    #contact .contact-holder .contact-image img {
+        width: 280px;
+    }
+
+    #contact .contact-holder .contact-text-contant {
+        margin-top: 0px;
+        text-align: start;
+
+    }
+
+    /* package */
+
+
+    #pacages-card .packages-card {
+        max-width: 180px;
+    }
+
+    #pacages-card .packages-card .check {
+        color: var(--green);
+        font-size: 10px;
+    }
+
+    #pacages-card .packages-card h1 {
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    #pacages-card .packages-card .price h1 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #pacages-card .packages-card .packages-list {
+        text-align: start;
+        line-height: 1px;
+    }
+
+    #pacages-card .packages-list p {
+        text-transform: capitalize;
+        font-size: 0.6rem;
+    }
+
+    #pacages-card .packages-card .wa-dark-btn {
+        font-size: 1rem;
+        padding: 5px 25px;
+    }
+
+    /* updat-event */
+
+    #updat-event .event-contant .form .wa-white-btn {
+        margin-left: 20px;
+    }
+
+    /* recent-news */
+
+
+    #recent-news .news-holder {
+        text-align: start;
+    }
+
+    /* footer */
+    #footer {
+        text-align: start;
+    }
+
+
+
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* .nav_search_icon {
+
+        padding: 0px 20px;
+    }
+
+    .nav_cros_icon {
+        margin-top: 20px;
+    } */
+
+    .nav_search {
+        width: 500px;
+    }
+
+    #header .search_box {
+        display: none;
+        text-align: center;
+    }
+
+    #header .search_boxx {
+        display: none;
+        text-align: end;
+        width: 95vw;
+
+    }
+
+    #header .navbar .list-group {
+        width: 700px;
+        text-align: center;
+    }
+
+    #header .navbar .collapse i {
+        margin: 20px 20px;
+    }
+
+    /* home-section */
+
+
+
+    #Home .home-contant .home-text-contant h1 {
+        font-size: 5rem;
+    }
+
+    #Home .home-contant .home-text-contant span {
+        font-size: 5rem;
+    }
+
+    #Home .home-contant .home-text-contant p {
+        font-size: 1.2rem;
+    }
+
+    #Home .home-contant .home-text-contant .wa-dark-btn {
+        font-size: 18px;
+        padding: 10px 50px;
+    }
+
+    /* context-section */
+    #context .contact-contant .context-text-contant {
+        text-align: start;
+
+    }
+
+
+    #context .context-contant .context-text-contant h1 {
+        font-size: 2.5rem;
+    }
+
+    #context .context-contant .context-text-contant span {
+        font-size: 2.5rem;
+    }
+
+    #context .context-contant .context-text-contant p {
+        font-size: 1rem;
+    }
+
+
+    #context .context-contant .context-text-sign .subtitle {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--list-grey);
+
+    }
+
+    /* your-work */
+
+
+
+    #your-work .project-house .project-wrapper .project-title h3 {
+
+        font-size: 25px;
+
+    }
+
+    #your-work .project-house .project-wrapper {
+
+        width: 250px;
+        height: 250px;
+
+
+    }
+
+    #your-work .project-house .project-wrapper img {
+        width: 275px;
+        height: 275px;
+
+    }
+
+    /* contacts */
+
+    #contact .contact-holder {
+        display: flex;
+    }
+
+    #contact .contact-holder .contact-image img {
+        width: 360px;
+    }
+
+    #contact .contact-holder .contact-text-contant {
+        width: 100%;
+        text-align: start;
+    }
+
+    #contact .contact-holder .contact-text-contant .brandInput {
+        width: 100%;
+    }
+
+    #contact .contact-holder .contact-text-contant .wa-white-btn {
+        width: 100%;
+    }
+
+    /* package */
+
+
+    #pacages-card .packages-card {
+        margin-bottom: 30px;
+        max-width: 230px;
+    }
+
+    #pacages-card .packages-card .check {
+        color: var(--green);
+    }
+
+    #pacages-card .packages-card h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    #pacages-card .packages-card .price h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    #pacages-card .packages-card .packages-list {
+        text-align: start;
+        line-height: 1px;
+    }
+
+    #pacages-card .packages-list p {
+        text-transform: capitalize;
+        font-size: 0.9rem;
+    }
+
+    #pacages-card .packages-card .wa-dark-btn {
+        font-size: 1rem;
+        padding: 5px 25px;
+    }
+
+    /* event */
+
+    #updat-event .event-contant .form .wa-white-btn {
+        margin-left: 20px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .nav_search_icon {
+
+        padding: 0px 20px;
+    }
+
+    .nav_cros_icon {
+        margin-top: 20px;
+    }
+
+    .nav_search {
+        width: 700px;
+    }
+
+    #header .search_box {
+        display: none;
+        text-align: center;
+    }
+
+    #header .search_boxx {
+        display: none;
+        text-align: end;
+        width: 95vw;
+
+    }
+
+
+
+    #header .navbar .list-group {
+        width: 200px;
+    }
+
+    #header .navbar .collapse i {
+        margin-left: 140px;
+    }
+
+
+    #your-work .project-house .project-wrapper {
+
+        width: 160px;
+        height: 160px;
+
+
+    }
+
+    #your-work .project-house .project-wrapper img {
+        width: 175px;
+        height: 175px;
+
+    }
+
+    /* package */
+
+
+    #pacages-card .packages-card {
+        max-width: 300px;
+    }
+
+    #pacages-card .packages-card .check {
+        margin-right: 10px;
+        color: var(--green);
+    }
+
+    #pacages-card .packages-card h1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    #pacages-card .packages-card .price h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    #pacages-card .packages-card .packages-list {
+        text-align: start;
+        line-height: 1.5px;
+    }
+
+    #pacages-card .packages-list p {
+        text-transform: capitalize;
+        font-size: 1rem;
+    }
+
+    #pacages-card .packages-card .wa-dark-btn {
+        font-size: 1.5rem;
+        padding: 7px 40px;
+    }
+
+    /* contact */
+
+
+    #contact .contact-holder .contact-image img {
+        width: 400px;
+    }
+
+    /* // X-Large devices (large desktops, 1200px and up) */
+    /* @media (min-width: 1200px) {
+    ...
+} */
+
+    /* // XX-Large devices (larger desktops, 1400px and up) */
+    /* @media (min-width: 1400px) {
+    ...
+} */
+}
