@@ -32,13 +32,20 @@
 
 /* gernal css */
 
+.sticky{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 2000;
+}
+
 ::-webkit-scrollbar{
 background: var(--fontLight);
 width: 0.5rem;}
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--fontDarkGrey);
-    border: 0.9px solid white;
+    border: 0.9px solid var(--fontLight);
     border-radius: 50px;
    
 }
