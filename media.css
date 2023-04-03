@@ -45,6 +45,10 @@
 
     /* home-section */
     #Home .home-contant {
+align-items: center;
+justify-content: center;
+    }
+    #Home .home-contant .home-text-contant{
         text-align: center;
 
     }
@@ -71,8 +75,8 @@
     }
 
     /* context-section */
-    #context .contact-contant .context-text-contant {
-        text-align: start;
+    #context .context-contant .context-text-contant {
+        text-align: center;
 
     }
 
@@ -217,11 +221,14 @@
     }
 
     /* home-section */
-    #Home .home-contant {
+    #Home .home-contant .home-text-contant{
         text-align: start;
 
     }
-
+    #Home .home-contant {
+        align-items: start;
+        justify-content: start;
+            }
 
     #Home .home-contant .home-text-contant h1 {
         font-size: 4rem;
@@ -243,9 +250,8 @@
     }
 
     /* context-section */
-
-    #context .contact-contant .context-text-contant {
-        text-align: start;
+    #context .context-contant .context-text-contant {
+        text-align:start;
 
     }
 

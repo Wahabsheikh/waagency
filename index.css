@@ -31,6 +31,18 @@
 
 
 /* gernal css */
+
+::-webkit-scrollbar{
+background: var(--fontLight);
+width: 0.5rem;}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--fontDarkGrey);
+    border: 0.9px solid white;
+    border-radius: 50px;
+   
+}
+
 input,
 textarea {
     color: var(--fontLight);
