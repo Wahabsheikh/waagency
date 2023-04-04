@@ -18,9 +18,21 @@
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="./index.css">
 </head>
+<style>
+    #work_show {
+        display: flex;
+        /* overflow-x: auto; */
+        /* overflow: visible; */
+        overflow-wrap: wrap;
+    }
+
+    #work_show .item {
+        margin-left: 20px;
+    }
+</style>
 
 <body>
-    <section id="header" >
+    <section id="header">
         <div class="container-fluid">
             <div class=" search_boxx  ">
                 <i onclick="search_box_crox()" class="far fa-times-circle nav_cros_icon"> </i>
@@ -158,8 +170,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 project-house">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
+                    <div id="work_show" class="owl-carousel owl-theme">
+                        <!-- <div class="item">
                             <div class="project-wrapper">
                                 <img src="./assets/icon/project/89666-1.jpg" alt="project images">
                                 <div class="project-title " id="website">
@@ -168,7 +180,7 @@
                                     </h3>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

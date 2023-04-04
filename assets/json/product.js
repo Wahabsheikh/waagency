@@ -1,41 +1,33 @@
-// fetch("https://fakestoreapi.com/products").then((prod) => {
-//     if (!prod.ok) {
-//         throw Error(res.statusText)
-//     }
-//     console.log(prod)
+fetch("https://fakestoreapi.com/users").then((prod) => {
+    if (!prod.ok) {
+        throw Error(res.statusText)
+    }
+    console.log(prod)
 
-//     return prod.json()
-// }).then((datas) => {
-//     console.log(datas)
-//     var productContain = document.querySelector("#your-work")
-
-//     datas.forEach(element => {
-//         productContain.append` 
-//         <div class="container-fluid">
-//             <div class="row">
-//                 <div class="col-12 project-house">
-//                     <div class="owl-carousel owl-theme">
-//                         <div class="item">
-//                             <div class="project-wrapper">
-//                                 <img src="./assets/icon/project/89666-1.jpg" alt="project images">
-//                                 <div class="project-title " id="website">
-//                                     <h3>${element.title}
-//                                         website creation
-//                                     </h3>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
+    return prod.json()
+}).then((datas) => {
+    console.log(datas)
+    var productContain = document.querySelector("#work_show")
+    setTimeout(function () {
+        datas.forEach(element => {
+            productContain.innerHTML += ` 
+        <div class="item">
+            <div class="project-wrapper">
+                <img src="./assets/icon/project/89666-1.jpg" alt="project images">
+                <div class="project-title " id="website">
+                    <h3>
+                    ${element.username}
+                    </h3>
+                </div>
+            </div>
+        </div>
       
-//    `
-//     });
+      
+   `
+        });
+    }, 3000)
 
-  
-
-// })
-//     .catch((error) => {
-//         console.log(error)
-//     })
+})
+    .catch((error) => {
+        console.log(error)
+    })
