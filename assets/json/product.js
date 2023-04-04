@@ -25,7 +25,7 @@ fetch("https://fakestoreapi.com/users").then((prod) => {
       
    `
         });
-    }, 3000)
+    }, 1000)
 
 })
     .catch((error) => {
