@@ -1,3 +1,8 @@
+
+fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+
 fetch("https://fakestoreapi.com/users").then((prod) => {
     if (!prod.ok) {
         throw Error(res.statusText)
@@ -31,3 +36,5 @@ fetch("https://fakestoreapi.com/users").then((prod) => {
     .catch((error) => {
         console.log(error)
     })
+
+  

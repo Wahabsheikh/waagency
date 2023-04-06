@@ -23,19 +23,7 @@ fetch("https://jsonplaceholder.typicode.com/posts").then((res) => {
 
     return res.json()
 }).then((data) => {
-    document.getElementById("h_h1").innerHTML = data[1].title
-    document.getElementById("h_p").innerHTML = data[1].title
-    document.getElementById("context_p").innerHTML = data[4].body
-    document.getElementById("our_service_p").innerHTML = data[5].body
-    document.getElementById("service_p").innerHTML = data[3].title
-    document.getElementById("contact_p").innerHTML = data[2].body
-    document.getElementById("team_p").innerHTML = data[7].body
-    document.getElementById("packages_p").innerHTML = data[6].body
-    document.getElementById("update_p").innerHTML = data[10].body
-    document.getElementById("about_p").innerHTML = data[12].body
-    document.getElementById("about_res_P").innerHTML = data[10].title
-    // document.getElementById("recent_p").innerHTML = data[10].body
-    // document.getElementById("recent_p").innerHTML = data[10].body
+    // document.getElementById("h_h1").innerHTML = data[1].title
 
 
     
