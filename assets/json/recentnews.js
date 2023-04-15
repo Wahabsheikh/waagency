@@ -1,35 +1,77 @@
 const newss = [
     {
         id: 1,
-        img: './assets/icon/recent news/demo26-007-600x400.jpg',
+        img: './assets/icon/recent news/wahab.jpg',
         date: '27,feb,23',
         name: 'abdul wahab',
     }, {
         id: 2,
-        img: './assets/icon/recent news/Single_post-002-compressor-600x400.jpg',
+        img: './assets/icon/recent news/rahul.jpg',
         date: '30,apr,23',
         name: 'Rahul',
     }, {
         id: 3,
-        img: './assets/icon/recent news/download.jpg',
+        img: './assets/icon/recent news/abdullah.jpg',
         date: '25,dec,22',
         name: 'abdullah',
     }, {
         id: 4,
-        img: './assets/icon/recent news/istockphoto-1148918504-170667a.jpg',
+        img: './assets/icon/recent news/neha.jpg',
         date: '17,jan,23',
         name: 'neha',
     }, {
         id: 5,
-        img: './assets/icon/recent news/istockphoto-615823282-612x612.jpg',
+        img: './assets/icon/recent news/wahaj.jpg',
 
         date: '12,mar,23',
         name: 'wahaj',
     }, {
         id: 6,
-        img: './assets/icon/recent news/build_a_website_for_free_-_article_image.jpg',
+        img: './assets/icon/recent news/bahadur.jpg',
         date: '10,apr,23',
         name: 'bahadur',
+    }, {
+        id: 7,
+        img: './assets/icon/recent news/rahil.jpg',
+        date: '27,feb,23',
+        name: 'Rahil',
+    }, {
+        id: 8,
+        img: './assets/icon/recent news/jamshed.jpg',
+        date: '30,apr,23',
+        name: 'jamshed',
+    }, {
+        id: 9,
+        img: './assets/icon/recent news/lubna.jpg',
+        date: '25,dec,22',
+        name: 'lubna',
+    }, {
+        id: 10,
+        img: './assets/icon/recent news/kashif.jpg',
+        date: '17,jan,23',
+        name: 'kashif',
+    }, {
+        id: 11,
+        img: './assets/icon/recent news/asgher.jpg',
+
+        date: '12,mar,23',
+        name: 'asgher',
+    }, {
+        id: 12,
+        img: './assets/icon/recent news/ali.jpg',
+        date: '10,apr,23',
+        name: 'ali',
+    }, {
+        id: 13,
+        img: './assets/icon/recent news/yasir.jpg',
+
+        date: '12,mar,23',
+        name: 'yasir',
+    }, {
+        id: 14,
+        img: './assets/icon/recent news/subhan.jpg',
+        date: '10,apr,23',
+        name: 'subhan',
     }
 ];
 

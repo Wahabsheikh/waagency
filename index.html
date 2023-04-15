@@ -29,7 +29,7 @@
         margin-left: 20px;
     }
 
- 
+
 
     #work_show::-webkit-scrollbar {
         background: var(--fontLight);
@@ -51,7 +51,7 @@
                 <i onclick="search_box_crox()" class="far fa-times-circle nav_cros_icon"> </i>
 
                 <div class="search_box input-group">
-                    <input type="email" class="nav_search" id="exampleFormControlInput1" placeholder="youremail">
+                    <input type="email" class="nav_search" id="input" placeholder="youremail">
                     <button class="nav_search_btn" type="submit">
                         <i" class="fas fa-search nav_search_icon"></i>
                     </button>
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div id="services-contant-wrapper" class="col-md-3 col-sm-6 col-xs-12 mb-5 services-contant ">
-                    <!-- <div class="service-text-contant mb-5">
+                    <div class="service-text-contant mb-5">
                         <span class="servic-icon">
                             <i class="fas fa-cloud-rain"></i>
                         </span>
@@ -220,18 +220,18 @@
                         </p>
                         <a href="#" class="read-more"> <span> read more</span> <img src="./assets/icon/ar.png" alt="">
                         </a>
-                    </div> -->
-                    <!-- <div class="service-text-contant">
+                    </div>
+                    <div class="service-text-contant">
                         <span class="servic-icon">
                             <i class="fas fa-eye"></i> </span>
                         <h4>landing pages</h4>
                         <p>Our website design company specializes in the <br> profesional creation of unique sites.</p>
                         <a href="#" class="read-more"> <span>read more </span> <img src="./assets/icon/ar.png" alt="">
                         </a>
-                    </div> -->
+                    </div>
                 </div>
                 <div id="services2-contant-wrapper" class="col-md-3 col-sm-6 col-xs-12 services-contant ">
-                    <!-- <div class="service-text-contant mb-5">
+                    <div class="service-text-contant mb-5">
                         <span class="servic-icon">
                             <i class="fab fa-searchengin"></i>
                         </span>
@@ -248,7 +248,7 @@
                         <p>Our website design company specializes in the <br> profesional creation of unique sites.</p>
                         <a href="#" class="read-more"> <span> read more</span> <img src="./assets/icon/ar.png"
                                 alt=""></a>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,30 +262,41 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12 contact-contant text-center ">
-                    <div class=" contact-text-contant">
-                        <h1>Get a <span>Free</span> <br> Prototype <br>
-                            of Your Future <br> Website!</h1>
-                        <p id="contact_p">Send your requirements for a website, we will <br> research your
-                            specification, create a <br>
-                            prototype
-                            of the website for free and sed a <br> result to you!
-                        </p>
-                        <div class="mb-3">
-                            <input type="email" class="brandInput" id="exampleFormControlInput1"
-                                placeholder="your name">
-                        </div>
-                        <div class="mb-3">
-                            <input type="number" class="brandInput" id="exampleFormControlInput1"
-                                placeholder="your number">
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="brandInput" placeholder="message" id="exampleFormControlTextarea1"
-                                rows="3"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <button class="wa-white-btn" type="submit">submit</button>
-                        </div>
-
+                    <div id="contact" class=" form contact-text-contant">
+                        <form action="" onsubmit="return validateForm()">
+                            <h1>Get a <span>Free</span> <br> Prototype <br>
+                                of Your Future <br> Website!</h1>
+                            <p id="contact_p">Send your requirements for a website, we will <br> research your
+                                specification, create a <br>
+                                prototype
+                                of the website for free and sed a <br> result to you!
+                            </p>
+                            <div class="mb-4">
+                                <input type="text" class="brandInput" id="userName" placeholder="Enter Your Name" autocomplete="off" >
+                                <div id="errorHolders">
+                                    <p class="error text-danger" id="nameErrors"></p>
+                                    <p class="done text-success" id="nameDone"></p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <input type="number" class="brandInput" id="userNum" placeholder="Enter Your Number" autocomplete="off" >
+                                <div id="errorHolders">
+                                    <p class="error text-danger" id="numErrors"></p>
+                                    <p class="done text-success" id="numDone"></p>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <textarea class="brandInput" placeholder="Tell Your Some About"  autocomplete="off" id="aboutYours"
+                                    rows="3"></textarea>
+                                    <div id="errorHolders">
+                                        <p class="error text-danger" id="textErrors"></p>
+                                        <p class="done text-success" id="textDone"></p>
+                                    </div>
+                            </div>
+                            <div class="mb-4">
+                                <button class="wa-white-btn" type="submit" id="submitBtn">submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -446,13 +457,12 @@
                 </div>
             </div>
             <div class="row news-holder" id="news-holder">
-            
+
             </div>
         </div>
     </section>
-    <img src="./assets/icon/recent news/Single_post-002-compressor-600x400.jpg" alt="">
-    
-    
+
+
     <section id="footer">
         <div class="container-fluid">
             <div class="row">

@@ -33,22 +33,43 @@
 
 /* gernal css */
 
-.sticky{
+/* errorholder */
+#errorHolders {
+    display: flex;
+    /* position: relative; */
+    margin: 0px;
+    margin-left: 15px;
+}
+#errorHolders p {
+    position: absolute;
+
+}
+.done {
+    font-weight: 500;
+}
+
+.error {
+    font-weight: 500;
+
+}
+
+.sticky {
     width: 100%;
     top: 0;
     position: fixed;
     z-index: 2000;
 }
 
-::-webkit-scrollbar{
-background: var(--fontLight);
-width: 0.5rem;}
+::-webkit-scrollbar {
+    background: var(--fontLight);
+    width: 0.5rem;
+}
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--fontDarkGrey);
     border: 0.9px solid var(--fontLight);
     border-radius: 50px;
-   
+
 }
 
 input,
@@ -535,13 +556,8 @@ body {
 
 
 /* our services */
-#our-services #services-contant-wrapper,
-#our-services #services2-contant-wrapper {
-   overflow: scroll;
-   height: 500px;
-   padding: 30px 20px;
 
-}
+
 #our-services h1 {
     /* font-family: Montserrat; */
     font-size: 2.5rem;
